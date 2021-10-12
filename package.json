@@ -1,0 +1,30 @@
+{
+  "name": "eloquent-javascript-solution",
+  "version": "1.0.0",
+  "description": "This is the solutions by the book Eloquent Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vkube/Eloquent-JavaScript-solution.git"
+  },
+  "author": "S.Drozdov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vkube/Eloquent-JavaScript-solution/issues"
+  },
+  "homepage": "https://github.com/Vkube/Eloquent-JavaScript-solution#readme",
+  "dependencies": {
+    "npm-update": "^1.0.8"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.1",
+    "prettier": "^2.4.1"
+  }
+}
