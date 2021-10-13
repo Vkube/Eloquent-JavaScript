@@ -12,3 +12,5 @@ function countBs(string) {
 }
 var result = countBs('Bdcd');
 console.log(result);
+module.exports=countBs();
+module.exports=countChar();

@@ -15,3 +15,4 @@ for (var y = 0; y < size; y++) {
   symbol += "\n";
 }
 console.log(symbol);
+

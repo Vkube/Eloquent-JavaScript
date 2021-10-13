@@ -6,3 +6,5 @@ function min(num1, num2) {
 }
 let result = min(0, 10);
 console.log(result);
+
+module.exports=min;

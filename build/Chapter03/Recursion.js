@@ -14,3 +14,5 @@ function isEven(num1) {
 var result = isEven(50);
 var resultForNum = isEven(75);
 console.log(result, resultForNum);
+
+module.exports=isEven;
