@@ -1,5 +1,5 @@
 # Eloquent-JavaScript-solution
-
+[![js.jpg](https://i.postimg.cc/P5J0Ls9W/js.jpg)](https://postimg.cc/fV48FFwy)
 Репозиторий посвящен решению задач из книги Марейна Хавербеке "Выразительный Javascript"
 
 [официальный сайт с движком и задачами](https://eloquentjavascript.net/)
