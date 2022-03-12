@@ -2,10 +2,10 @@
 // используя для разделения строк символы новой строки. В каждой позиции
 // сетки стоит либо пробел, либо символ"#".
 // Эти символы должны располагаться в шахматном порядке.
-var size = 8;
-var symbol = "";
-for (var y = 0; y < size; y++) {
-  for (var x = 0; x < size; x++) {
+const size = 8;
+let symbol = "";
+for (let y = 0; y < size; y++) {
+  for (let x = 0; x < size; x++) {
     if ((x + y) % 2 == 0) {
       symbol += " ";
     } else {
@@ -15,4 +15,3 @@ for (var y = 0; y < size; y++) {
   symbol += "\n";
 }
 console.log(symbol);
-

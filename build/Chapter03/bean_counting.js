@@ -1,16 +1,16 @@
 function countChar(word, letter) {
-    var count = 0;
-    for (var i = 0; i < word.length; i++) {
-        if (word.charAt(i) == letter) {
-            count++;
-        }
+  let count = 0;
+  for (let i = 0; i < word.length; i++) {
+    if (word.charAt(i) == letter) {
+      count++;
     }
-    return count;
+  }
+  return count;
 }
 function countBs(string) {
-    return countChar(string, "B");
+  return countChar(string, "B");
 }
-var result = countBs('Bdcd');
+const result = countBs("Bdcd");
 console.log(result);
-module.exports=countBs();
-module.exports=countChar();
+module.exports = countBs();
+module.exports = countChar();

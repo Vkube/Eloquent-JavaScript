@@ -2,17 +2,13 @@
 // санию. Функция должна принимать один параметр (положительное целое
 // число) и возвращать логическое значение.
 function isEven(num1) {
-    if (num1 == 0)
-        return true;
-    else if (num1 == 1)
-        return false;
-    else if (num1 < 0)
-        return isEven(-num1);
-    else
-        return isEven(num1 - 2);
+  if (num1 == 0) return true;
+  if (num1 == 1) return false;
+  if (num1 < 0) return isEven(-num1);
+  return isEven(num1 - 2);
 }
-var result = isEven(50);
-var resultForNum = isEven(75);
+const result = isEven(50);
+const resultForNum = isEven(75);
 console.log(result, resultForNum);
 
-module.exports=isEven;
+module.exports = isEven;

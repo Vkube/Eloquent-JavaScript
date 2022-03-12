@@ -11,13 +11,6 @@ const reverseArray = (array) => {
   return newArr;
 };
 
-const reverseArrayInPlace = ()=>{
-
-
-
-
-}
-
-
+const reverseArrayInPlace = () => {};
 
 console.log(reverseArray(["A", "B", "C"]));

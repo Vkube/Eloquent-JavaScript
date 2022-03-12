@@ -4,7 +4,7 @@
 function min(num1, num2) {
   return num1 < num2 ? num1 : num2;
 }
-let result = min(0, 10);
+const result = min(0, 10);
 console.log(result);
 
-module.exports=min;
+module.exports = min;

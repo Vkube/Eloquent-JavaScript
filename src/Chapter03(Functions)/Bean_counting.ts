@@ -10,5 +10,5 @@ function countChar(word: string, letter: string): number {
 function countBs(string) {
   return countChar(string, "B");
 }
-let result = countBs('Bdcd');
+let result = countBs("Bdcd");
 console.log(result);
